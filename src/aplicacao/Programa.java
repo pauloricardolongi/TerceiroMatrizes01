@@ -20,15 +20,15 @@ public class Programa {
 			System.out.print(mat[i][i]+ " ");
 		}
 		System.out.println();
-		int conta = 0;
+		int contador = 0;
 		for (int i=0; i<mat.length; i++) {
 			for(int j=0; j<mat[i].length; j++) {
 				if(mat[i][j] < 0) {
-					conta++;
+					contador++;
 				}
 			}
 		}
-		System.out.println("Números Negativos:" + conta);
+		System.out.println("Números Negativos:" + contador);
 		sc.close();
 
 	}
